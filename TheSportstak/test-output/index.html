@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\Rahul Pandey\AppData\Local\Temp\testng-eclipse--149394626\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.WebStoryTestClass" hash-for-method="closeBrowserWindow">closeBrowserWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.WebStoryTestClass" hash-for-method="getEightPageOfStoryHeadingAndBody">getEightPageOfStoryHeadingAndBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.WebStoryTestClass" hash-for-method="getFifthPageOfStoryHeadingAndBody">getFifthPageOfStoryHeadingAndBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.WebStoryTestClass" hash-for-method="getFirstPageOfStoryHeadingAndBody">getFirstPageOfStoryHeadingAndBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.WebStoryTestClass" hash-for-method="getFourthPageOfStoryHeadingAndBody">getFourthPageOfStoryHeadingAndBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.WebStoryTestClass" hash-for-method="getNinthPageOfStoryHeadingAndBody">getNinthPageOfStoryHeadingAndBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.WebStoryTestClass" hash-for-method="getSecondPageOfStoryHeadingAndBody">getSecondPageOfStoryHeadingAndBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.WebStoryTestClass" hash-for-method="getSeventhPageOfStoryHeadingAndBody">getSeventhPageOfStoryHeadingAndBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.WebStoryTestClass" hash-for-method="getSixthPageOfStoryHeadingAndBody">getSixthPageOfStoryHeadingAndBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.WebStoryTestClass" hash-for-method="getThirdPageOfStoryHeadingAndBody">getThirdPageOfStoryHeadingAndBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.WebStoryTestClass" hash-for-method="verifyThatUserCanClickOnDisplayedWebStory">verifyThatUserCanClickOnDisplayedWebStory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.WebStoryTestClass" hash-for-method="verifyThatUserCanClickOnNextWebStory">verifyThatUserCanClickOnNextWebStory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.WebStoryTestClass" hash-for-method="verifyThatUserCanClickOnWebStoryLink">verifyThatUserCanClickOnWebStoryLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.WebStoryTestClass" hash-for-method="verifyThatUserCanReturnOnHomePage">verifyThatUserCanReturnOnHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.WebStoryTestClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="closeBrowserWindow">
+                  </a> <!-- closeBrowserWindow -->
+                  <span class="method-name">closeBrowserWindow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getEightPageOfStoryHeadingAndBody">
+                  </a> <!-- getEightPageOfStoryHeadingAndBody -->
+                  <span class="method-name">getEightPageOfStoryHeadingAndBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFifthPageOfStoryHeadingAndBody">
+                  </a> <!-- getFifthPageOfStoryHeadingAndBody -->
+                  <span class="method-name">getFifthPageOfStoryHeadingAndBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFirstPageOfStoryHeadingAndBody">
+                  </a> <!-- getFirstPageOfStoryHeadingAndBody -->
+                  <span class="method-name">getFirstPageOfStoryHeadingAndBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFourthPageOfStoryHeadingAndBody">
+                  </a> <!-- getFourthPageOfStoryHeadingAndBody -->
+                  <span class="method-name">getFourthPageOfStoryHeadingAndBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getNinthPageOfStoryHeadingAndBody">
+                  </a> <!-- getNinthPageOfStoryHeadingAndBody -->
+                  <span class="method-name">getNinthPageOfStoryHeadingAndBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSecondPageOfStoryHeadingAndBody">
+                  </a> <!-- getSecondPageOfStoryHeadingAndBody -->
+                  <span class="method-name">getSecondPageOfStoryHeadingAndBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSeventhPageOfStoryHeadingAndBody">
+                  </a> <!-- getSeventhPageOfStoryHeadingAndBody -->
+                  <span class="method-name">getSeventhPageOfStoryHeadingAndBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSixthPageOfStoryHeadingAndBody">
+                  </a> <!-- getSixthPageOfStoryHeadingAndBody -->
+                  <span class="method-name">getSixthPageOfStoryHeadingAndBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getThirdPageOfStoryHeadingAndBody">
+                  </a> <!-- getThirdPageOfStoryHeadingAndBody -->
+                  <span class="method-name">getThirdPageOfStoryHeadingAndBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyThatUserCanClickOnDisplayedWebStory">
+                  </a> <!-- verifyThatUserCanClickOnDisplayedWebStory -->
+                  <span class="method-name">verifyThatUserCanClickOnDisplayedWebStory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyThatUserCanClickOnNextWebStory">
+                  </a> <!-- verifyThatUserCanClickOnNextWebStory -->
+                  <span class="method-name">verifyThatUserCanClickOnNextWebStory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyThatUserCanClickOnWebStoryLink">
+                  </a> <!-- verifyThatUserCanClickOnWebStoryLink -->
+                  <span class="method-name">verifyThatUserCanClickOnWebStoryLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyThatUserCanReturnOnHomePage">
+                  </a> <!-- verifyThatUserCanReturnOnHomePage -->
+                  <span class="method-name">verifyThatUserCanReturnOnHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Rahul Pandey\AppData\Local\Temp\testng-eclipse--149394626\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.WebStoryTestClass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyThatUserCanClickOnWebStoryLink')
+data.setCell(0, 2, 'test.WebStoryTestClass')
+data.setCell(0, 3, 2469);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getFirstPageOfStoryHeadingAndBody')
+data.setCell(1, 2, 'test.WebStoryTestClass')
+data.setCell(1, 3, 1335);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyThatUserCanReturnOnHomePage')
+data.setCell(2, 2, 'test.WebStoryTestClass')
+data.setCell(2, 3, 854);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyThatUserCanClickOnDisplayedWebStory')
+data.setCell(3, 2, 'test.WebStoryTestClass')
+data.setCell(3, 3, 592);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getThirdPageOfStoryHeadingAndBody')
+data.setCell(4, 2, 'test.WebStoryTestClass')
+data.setCell(4, 3, 268);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'getSeventhPageOfStoryHeadingAndBody')
+data.setCell(5, 2, 'test.WebStoryTestClass')
+data.setCell(5, 3, 255);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getEightPageOfStoryHeadingAndBody')
+data.setCell(6, 2, 'test.WebStoryTestClass')
+data.setCell(6, 3, 235);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getFifthPageOfStoryHeadingAndBody')
+data.setCell(7, 2, 'test.WebStoryTestClass')
+data.setCell(7, 3, 213);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getSecondPageOfStoryHeadingAndBody')
+data.setCell(8, 2, 'test.WebStoryTestClass')
+data.setCell(8, 3, 191);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'getFourthPageOfStoryHeadingAndBody')
+data.setCell(9, 2, 'test.WebStoryTestClass')
+data.setCell(9, 3, 182);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'getNinthPageOfStoryHeadingAndBody')
+data.setCell(10, 2, 'test.WebStoryTestClass')
+data.setCell(10, 3, 169);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'getSixthPageOfStoryHeadingAndBody')
+data.setCell(11, 2, 'test.WebStoryTestClass')
+data.setCell(11, 3, 152);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyThatUserCanClickOnNextWebStory')
+data.setCell(12, 2, 'test.WebStoryTestClass')
+data.setCell(12, 3, 133);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'closeBrowserWindow')
+data.setCell(13, 2, 'test.WebStoryTestClass')
+data.setCell(13, 3, 115);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.WebStoryTestClass</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verifyThatUserCanClickOnWebStoryLink</span>
+                <span class="method-start">3082 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=verifyThatUserCanClickOnWebStoryLink status=SUCCESS method=WebStoryTestClass.verify...)</span>
+                <span class="method-start">5553 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyThatUserCanClickOnDisplayedWebStory</span>
+                <span class="method-start">5556 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=verifyThatUserCanClickOnDisplayedWebStory status=SUCCESS method=WebStoryTestClass.v...)</span>
+                <span class="method-start">6149 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">getFirstPageOfStoryHeadingAndBody</span>
+                <span class="method-start">6150 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=getFirstPageOfStoryHeadingAndBody status=SUCCESS method=WebStoryTestClass.getFirstP...)</span>
+                <span class="method-start">7494 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">getSecondPageOfStoryHeadingAndBody</span>
+                <span class="method-start">7495 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=getSecondPageOfStoryHeadingAndBody status=SUCCESS method=WebStoryTestClass.getSecon...)</span>
+                <span class="method-start">7693 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">getThirdPageOfStoryHeadingAndBody</span>
+                <span class="method-start">7693 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=getThirdPageOfStoryHeadingAndBody status=SUCCESS method=WebStoryTestClass.getThirdP...)</span>
+                <span class="method-start">7963 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">getFourthPageOfStoryHeadingAndBody</span>
+                <span class="method-start">7963 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=getFourthPageOfStoryHeadingAndBody status=SUCCESS method=WebStoryTestClass.getFourt...)</span>
+                <span class="method-start">8153 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">getFifthPageOfStoryHeadingAndBody</span>
+                <span class="method-start">8153 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=getFifthPageOfStoryHeadingAndBody status=SUCCESS method=WebStoryTestClass.getFifthP...)</span>
+                <span class="method-start">8366 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">getSixthPageOfStoryHeadingAndBody</span>
+                <span class="method-start">8368 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=getSixthPageOfStoryHeadingAndBody status=SUCCESS method=WebStoryTestClass.getSixthP...)</span>
+                <span class="method-start">8526 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">getSeventhPageOfStoryHeadingAndBody</span>
+                <span class="method-start">8527 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=getSeventhPageOfStoryHeadingAndBody status=SUCCESS method=WebStoryTestClass.getSeve...)</span>
+                <span class="method-start">8782 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">getEightPageOfStoryHeadingAndBody</span>
+                <span class="method-start">8782 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=getEightPageOfStoryHeadingAndBody status=SUCCESS method=WebStoryTestClass.getEightP...)</span>
+                <span class="method-start">9017 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">getNinthPageOfStoryHeadingAndBody</span>
+                <span class="method-start">9017 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=getNinthPageOfStoryHeadingAndBody status=SUCCESS method=WebStoryTestClass.getNinthP...)</span>
+                <span class="method-start">9186 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">closeBrowserWindow</span>
+                <span class="method-start">9186 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=closeBrowserWindow status=SUCCESS method=WebStoryTestClass.closeBrowserWindow()[pri...)</span>
+                <span class="method-start">9301 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyThatUserCanClickOnNextWebStory</span>
+                <span class="method-start">9301 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=verifyThatUserCanClickOnNextWebStory status=SUCCESS method=WebStoryTestClass.verify...)</span>
+                <span class="method-start">9435 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyThatUserCanReturnOnHomePage</span>
+                <span class="method-start">9436 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=verifyThatUserCanReturnOnHomePage status=SUCCESS method=WebStoryTestClass.verifyTha...)</span>
+                <span class="method-start">10292 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">10292 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="test.WebStoryTestClass">
+        <methods>
+          <include name="getSeventhPageOfStoryHeadingAndBody"/>
+          <include name="getSecondPageOfStoryHeadingAndBody"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="takeScreenshotOnFailure"/>
+          <include name="getEightPageOfStoryHeadingAndBody"/>
+          <include name="getFourthPageOfStoryHeadingAndBody"/>
+          <include name="getNinthPageOfStoryHeadingAndBody"/>
+          <include name="getThirdPageOfStoryHeadingAndBody"/>
+          <include name="getSixthPageOfStoryHeadingAndBody"/>
+          <include name="getFifthPageOfStoryHeadingAndBody"/>
+          <include name="getFirstPageOfStoryHeadingAndBody"/>
+        </methods>
+      </class> <!-- test.WebStoryTestClass -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

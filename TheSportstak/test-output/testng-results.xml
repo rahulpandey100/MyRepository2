@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10987" started-at="2022-08-21T05:19:13Z" finished-at="2022-08-21T05:19:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10987" started-at="2022-08-21T05:19:13Z" finished-at="2022-08-21T05:19:24Z">
+      <class name="test.WebStoryTestClass">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.WebStoryTestClass@fbd1f6]" name="openBrowser" is-config="true" duration-ms="3068" started-at="2022-08-21T05:19:13Z" finished-at="2022-08-21T05:19:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyThatUserCanClickOnWebStoryLink()[pri:1, instance:test.WebStoryTestClass@fbd1f6]" name="verifyThatUserCanClickOnWebStoryLink" duration-ms="2469" started-at="2022-08-21T05:19:16Z" finished-at="2022-08-21T05:19:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserCanClickOnWebStoryLink -->
+        <test-method status="PASS" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:test.WebStoryTestClass@fbd1f6]" name="takeScreenshotOnFailure" is-config="true" duration-ms="1" started-at="2022-08-21T05:19:19Z" finished-at="2022-08-21T05:19:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyThatUserCanClickOnWebStoryLink status=SUCCESS method=WebStoryTestClass.verifyThatUserCanClickOnWebStoryLink()[pri:1, instance:test.WebStoryTestClass@fbd1f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method status="PASS" signature="verifyThatUserCanClickOnDisplayedWebStory()[pri:2, instance:test.WebStoryTestClass@fbd1f6]" name="verifyThatUserCanClickOnDisplayedWebStory" duration-ms="592" started-at="2022-08-21T05:19:19Z" finished-at="2022-08-21T05:19:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserCanClickOnDisplayedWebStory -->
+        <test-method status="PASS" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:test.WebStoryTestClass@fbd1f6]" name="takeScreenshotOnFailure" is-config="true" duration-ms="0" started-at="2022-08-21T05:19:19Z" finished-at="2022-08-21T05:19:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyThatUserCanClickOnDisplayedWebStory status=SUCCESS method=WebStoryTestClass.verifyThatUserCanClickOnDisplayedWebStory()[pri:2, instance:test.WebStoryTestClass@fbd1f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method status="PASS" signature="getFirstPageOfStoryHeadingAndBody()[pri:3, instance:test.WebStoryTestClass@fbd1f6]" name="getFirstPageOfStoryHeadingAndBody" duration-ms="1335" started-at="2022-08-21T05:19:19Z" finished-at="2022-08-21T05:19:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFirstPageOfStoryHeadingAndBody -->
+        <test-method status="PASS" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:test.WebStoryTestClass@fbd1f6]" name="takeScreenshotOnFailure" is-config="true" duration-ms="1" started-at="2022-08-21T05:19:21Z" finished-at="2022-08-21T05:19:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getFirstPageOfStoryHeadingAndBody status=SUCCESS method=WebStoryTestClass.getFirstPageOfStoryHeadingAndBody()[pri:3, instance:test.WebStoryTestClass@fbd1f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method status="PASS" signature="getSecondPageOfStoryHeadingAndBody()[pri:4, instance:test.WebStoryTestClass@fbd1f6]" name="getSecondPageOfStoryHeadingAndBody" duration-ms="191" started-at="2022-08-21T05:19:21Z" finished-at="2022-08-21T05:19:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSecondPageOfStoryHeadingAndBody -->
+        <test-method status="PASS" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:test.WebStoryTestClass@fbd1f6]" name="takeScreenshotOnFailure" is-config="true" duration-ms="0" started-at="2022-08-21T05:19:21Z" finished-at="2022-08-21T05:19:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getSecondPageOfStoryHeadingAndBody status=SUCCESS method=WebStoryTestClass.getSecondPageOfStoryHeadingAndBody()[pri:4, instance:test.WebStoryTestClass@fbd1f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method status="PASS" signature="getThirdPageOfStoryHeadingAndBody()[pri:5, instance:test.WebStoryTestClass@fbd1f6]" name="getThirdPageOfStoryHeadingAndBody" duration-ms="268" started-at="2022-08-21T05:19:21Z" finished-at="2022-08-21T05:19:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getThirdPageOfStoryHeadingAndBody -->
+        <test-method status="PASS" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:test.WebStoryTestClass@fbd1f6]" name="takeScreenshotOnFailure" is-config="true" duration-ms="0" started-at="2022-08-21T05:19:21Z" finished-at="2022-08-21T05:19:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getThirdPageOfStoryHeadingAndBody status=SUCCESS method=WebStoryTestClass.getThirdPageOfStoryHeadingAndBody()[pri:5, instance:test.WebStoryTestClass@fbd1f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method status="PASS" signature="getFourthPageOfStoryHeadingAndBody()[pri:6, instance:test.WebStoryTestClass@fbd1f6]" name="getFourthPageOfStoryHeadingAndBody" duration-ms="182" started-at="2022-08-21T05:19:21Z" finished-at="2022-08-21T05:19:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFourthPageOfStoryHeadingAndBody -->
+        <test-method status="PASS" signature="getFifthPageOfStoryHeadingAndBody()[pri:7, instance:test.WebStoryTestClass@fbd1f6]" name="getFifthPageOfStoryHeadingAndBody" duration-ms="213" started-at="2022-08-21T05:19:21Z" finished-at="2022-08-21T05:19:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFifthPageOfStoryHeadingAndBody -->
+        <test-method status="PASS" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:test.WebStoryTestClass@fbd1f6]" name="takeScreenshotOnFailure" is-config="true" duration-ms="0" started-at="2022-08-21T05:19:21Z" finished-at="2022-08-21T05:19:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getFourthPageOfStoryHeadingAndBody status=SUCCESS method=WebStoryTestClass.getFourthPageOfStoryHeadingAndBody()[pri:6, instance:test.WebStoryTestClass@fbd1f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method status="PASS" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:test.WebStoryTestClass@fbd1f6]" name="takeScreenshotOnFailure" is-config="true" duration-ms="0" started-at="2022-08-21T05:19:21Z" finished-at="2022-08-21T05:19:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getFifthPageOfStoryHeadingAndBody status=SUCCESS method=WebStoryTestClass.getFifthPageOfStoryHeadingAndBody()[pri:7, instance:test.WebStoryTestClass@fbd1f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method status="PASS" signature="getSixthPageOfStoryHeadingAndBody()[pri:8, instance:test.WebStoryTestClass@fbd1f6]" name="getSixthPageOfStoryHeadingAndBody" duration-ms="152" started-at="2022-08-21T05:19:21Z" finished-at="2022-08-21T05:19:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSixthPageOfStoryHeadingAndBody -->
+        <test-method status="PASS" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:test.WebStoryTestClass@fbd1f6]" name="takeScreenshotOnFailure" is-config="true" duration-ms="0" started-at="2022-08-21T05:19:22Z" finished-at="2022-08-21T05:19:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getSixthPageOfStoryHeadingAndBody status=SUCCESS method=WebStoryTestClass.getSixthPageOfStoryHeadingAndBody()[pri:8, instance:test.WebStoryTestClass@fbd1f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method status="PASS" signature="getSeventhPageOfStoryHeadingAndBody()[pri:9, instance:test.WebStoryTestClass@fbd1f6]" name="getSeventhPageOfStoryHeadingAndBody" duration-ms="255" started-at="2022-08-21T05:19:22Z" finished-at="2022-08-21T05:19:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSeventhPageOfStoryHeadingAndBody -->
+        <test-method status="PASS" signature="getEightPageOfStoryHeadingAndBody()[pri:10, instance:test.WebStoryTestClass@fbd1f6]" name="getEightPageOfStoryHeadingAndBody" duration-ms="235" started-at="2022-08-21T05:19:22Z" finished-at="2022-08-21T05:19:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEightPageOfStoryHeadingAndBody -->
+        <test-method status="PASS" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:test.WebStoryTestClass@fbd1f6]" name="takeScreenshotOnFailure" is-config="true" duration-ms="0" started-at="2022-08-21T05:19:22Z" finished-at="2022-08-21T05:19:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getSeventhPageOfStoryHeadingAndBody status=SUCCESS method=WebStoryTestClass.getSeventhPageOfStoryHeadingAndBody()[pri:9, instance:test.WebStoryTestClass@fbd1f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method status="PASS" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:test.WebStoryTestClass@fbd1f6]" name="takeScreenshotOnFailure" is-config="true" duration-ms="0" started-at="2022-08-21T05:19:22Z" finished-at="2022-08-21T05:19:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getEightPageOfStoryHeadingAndBody status=SUCCESS method=WebStoryTestClass.getEightPageOfStoryHeadingAndBody()[pri:10, instance:test.WebStoryTestClass@fbd1f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method status="PASS" signature="getNinthPageOfStoryHeadingAndBody()[pri:11, instance:test.WebStoryTestClass@fbd1f6]" name="getNinthPageOfStoryHeadingAndBody" duration-ms="169" started-at="2022-08-21T05:19:22Z" finished-at="2022-08-21T05:19:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNinthPageOfStoryHeadingAndBody -->
+        <test-method status="PASS" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:test.WebStoryTestClass@fbd1f6]" name="takeScreenshotOnFailure" is-config="true" duration-ms="0" started-at="2022-08-21T05:19:22Z" finished-at="2022-08-21T05:19:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getNinthPageOfStoryHeadingAndBody status=SUCCESS method=WebStoryTestClass.getNinthPageOfStoryHeadingAndBody()[pri:11, instance:test.WebStoryTestClass@fbd1f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method status="PASS" signature="closeBrowserWindow()[pri:12, instance:test.WebStoryTestClass@fbd1f6]" name="closeBrowserWindow" duration-ms="115" started-at="2022-08-21T05:19:22Z" finished-at="2022-08-21T05:19:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserWindow -->
+        <test-method status="PASS" signature="verifyThatUserCanClickOnNextWebStory()[pri:13, instance:test.WebStoryTestClass@fbd1f6]" name="verifyThatUserCanClickOnNextWebStory" duration-ms="133" started-at="2022-08-21T05:19:22Z" finished-at="2022-08-21T05:19:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserCanClickOnNextWebStory -->
+        <test-method status="PASS" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:test.WebStoryTestClass@fbd1f6]" name="takeScreenshotOnFailure" is-config="true" duration-ms="0" started-at="2022-08-21T05:19:22Z" finished-at="2022-08-21T05:19:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=closeBrowserWindow status=SUCCESS method=WebStoryTestClass.closeBrowserWindow()[pri:12, instance:test.WebStoryTestClass@fbd1f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method status="PASS" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:test.WebStoryTestClass@fbd1f6]" name="takeScreenshotOnFailure" is-config="true" duration-ms="0" started-at="2022-08-21T05:19:22Z" finished-at="2022-08-21T05:19:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyThatUserCanClickOnNextWebStory status=SUCCESS method=WebStoryTestClass.verifyThatUserCanClickOnNextWebStory()[pri:13, instance:test.WebStoryTestClass@fbd1f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method status="PASS" signature="verifyThatUserCanReturnOnHomePage()[pri:14, instance:test.WebStoryTestClass@fbd1f6]" name="verifyThatUserCanReturnOnHomePage" duration-ms="854" started-at="2022-08-21T05:19:22Z" finished-at="2022-08-21T05:19:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserCanReturnOnHomePage -->
+        <test-method status="PASS" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:test.WebStoryTestClass@fbd1f6]" name="takeScreenshotOnFailure" is-config="true" duration-ms="0" started-at="2022-08-21T05:19:23Z" finished-at="2022-08-21T05:19:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyThatUserCanReturnOnHomePage status=SUCCESS method=WebStoryTestClass.verifyThatUserCanReturnOnHomePage()[pri:14, instance:test.WebStoryTestClass@fbd1f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.WebStoryTestClass@fbd1f6]" name="closeBrowser" is-config="true" duration-ms="693" started-at="2022-08-21T05:19:23Z" finished-at="2022-08-21T05:19:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.WebStoryTestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
